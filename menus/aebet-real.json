@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle aebet-real",
+        "command": "aebet-real:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "aebet-real",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "aebet-real:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
